@@ -348,18 +348,10 @@ nav ul li:first-child a {
 }
 
 .add{
-/*     display: flex;
-    justify-content: space-between; */
-}
-
-.big-card{
-    margin: auto;
-/*     width: 75%; */
-    margin-bottom: 4px;
+    display: flex;
 }
 
 .big-card-content {
-/*     width: 100%; */
     background-color: #fff;
     border: 3px solid #f4cf23;
     align-items: center;
@@ -377,10 +369,14 @@ nav ul li:first-child a {
     display: inline-block;
 }
 
+/*  */
+
 .big-card-content {
     display: flex;
     justify-content: space-between;
 }
+
+/*  */
 
 .add-card-zagolovok h3 {
     font-size: 32rem;
@@ -410,6 +406,8 @@ nav ul li:first-child a {
     left: 0px;
     position: absolute;
 }
+
+
 
 .big-card-arrows{
     display: flex;
@@ -460,21 +458,14 @@ nav ul li:first-child a {
 
 .card-small{
     display: flex;
-    justify-content: space-between;
-    /* align-items: center; */
-    width: 33%;
     background-color: #ffffff;
     border: 3px solid #0193e9;
-    margin-bottom: 10px;
-    box-sizing: border-box;
 }
 
 .small-card{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    /* width: 75%; */
-    /* width: 26%; */
-    width: 100%;
 }
 
 .card-small img{
