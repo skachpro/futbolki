@@ -351,6 +351,10 @@ nav ul li:first-child a {
     display: flex;
 }
 
+.big-card{
+    padding-right: 3px;
+}
+
 .big-card-content {
     background-color: #fff;
     border: 3px solid #f4cf23;
@@ -460,13 +464,18 @@ nav ul li:first-child a {
     display: flex;
     background-color: #ffffff;
     border: 3px solid #0193e9;
+    margin-bottom: 3px;
 }
 
-.small-card{
+.card-small:last-child{
+    margin-bottom: 0;
+}
+
+/* .small-card{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-}
+    justify-content: flex-end;
+} */
 
 .card-small img{
     padding: 5px 0px 5px;
